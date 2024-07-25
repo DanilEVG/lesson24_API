@@ -13,6 +13,10 @@
 		7D0E18D72C41A3A800D083A7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E18D62C41A3A800D083A7 /* Base */; };
 		7D0E18D92C41A3AA00D083A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E18D82C41A3AA00D083A7 /* Assets.xcassets */; };
 		7D0E18DC2C41A3AA00D083A7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E18DB2C41A3AA00D083A7 /* Base */; };
+		7D0E18E42C41A5B000D083A7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E18E32C41A5B000D083A7 /* Person.swift */; };
+		7D0E18E62C41A82000D083A7 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E18E52C41A82000D083A7 /* ApiService.swift */; };
+		7D0E18E82C46897100D083A7 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E18E72C46897100D083A7 /* MyCollectionViewCell.swift */; };
+		7D0E192A2C51107700D083A7 /* AddPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E19292C51107700D083A7 /* AddPersonVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7D0E18D82C41A3AA00D083A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0E18DB2C41A3AA00D083A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D0E18DD2C41A3AA00D083A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0E18E32C41A5B000D083A7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7D0E18E52C41A82000D083A7 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		7D0E18E72C46897100D083A7 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D0E19292C51107700D083A7 /* AddPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				7D0E18CF2C41A3A800D083A7 /* AppDelegate.swift */,
 				7D0E18D12C41A3A800D083A7 /* SceneDelegate.swift */,
 				7D0E18D32C41A3A800D083A7 /* ViewController.swift */,
+				7D0E19292C51107700D083A7 /* AddPersonVC.swift */,
+				7D0E18E72C46897100D083A7 /* MyCollectionViewCell.swift */,
+				7D0E18E32C41A5B000D083A7 /* Person.swift */,
+				7D0E18E52C41A82000D083A7 /* ApiService.swift */,
 				7D0E18D52C41A3A800D083A7 /* Main.storyboard */,
 				7D0E18D82C41A3AA00D083A7 /* Assets.xcassets */,
 				7D0E18DA2C41A3AA00D083A7 /* LaunchScreen.storyboard */,
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0E18D42C41A3A800D083A7 /* ViewController.swift in Sources */,
+				7D0E192A2C51107700D083A7 /* AddPersonVC.swift in Sources */,
+				7D0E18E62C41A82000D083A7 /* ApiService.swift in Sources */,
+				7D0E18E82C46897100D083A7 /* MyCollectionViewCell.swift in Sources */,
 				7D0E18D02C41A3A800D083A7 /* AppDelegate.swift in Sources */,
+				7D0E18E42C41A5B000D083A7 /* Person.swift in Sources */,
 				7D0E18D22C41A3A800D083A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
